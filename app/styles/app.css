@@ -13,10 +13,15 @@ body{
     font-size: 20px
 }
 
-.link{
+.nav{
+    padding-top: 10px;
+}
+
+.link, .button{
     color: #f8b195;
     text-decoration: none;
 }
+
 
 .navbar .navbar-nav {
     display: inline-block;
@@ -25,6 +30,7 @@ body{
 }
 
 .navbar .navbar-collapse {
+    display: inline-block;
     text-align: center;
 }
 
@@ -34,11 +40,6 @@ body{
     color: #f8b195;
     background: #355c7d;
     border: none;
-}
-.center{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
 }
 
 footer{
