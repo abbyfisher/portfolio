@@ -5,6 +5,7 @@ body{
     background: #f8b195;
     color: #355c7d;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .container{
@@ -34,28 +35,14 @@ body{
     background: #355c7d;
     border: none;
 }
-
-
-
 .center{
     margin: auto;
     width: 50%;
     padding: 10px;
 }
 
+.navbar-fixed-bottom{
+    min-height: 12px;
+    font-size: 10px;
 
-
-.wrapper {
-    background:  #355c7d;
-    color: #f8b195;
-    font-family: "Baloo Tamma";
-    min-height: 100%;
-    height: auto !important;
-    margin: 0 auto -35px; /* the bottom margin is the negative value of the footer's height */
-}
-.footer, .push {
-    background:  #355c7d;
-    color: #f8b195;
-    font-family: "Baloo Tamma";
-    height: 25px; /* .push must be the same height as .footer */
 }
