@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma|Indie+Flower|Pacifico';
+
+body{
+    height:100%;
+    background: #f8b195;
+    color: #355c7d;
+    text-align: center;
+}
+
+.container{
+    font-family: "Indie Flower";
+    font-size: 20px
+}
+
+.link{
+    color: #f8b195;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+    font-family:"Pacifico";
+    font-size: 20px;
+    color: #f8b195;
+    background: #355c7d;
+    border: none;
+}
+
+#footer{
+    font-family: "Baloo Tamma";
+    font-size: 10px;
+
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+.wrapper {
+    background:  #355c7d;
+    color: #f8b195;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -35px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 25px; /* .push must be the same height as .footer */
+}
