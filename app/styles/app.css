@@ -5,7 +5,7 @@ body{
     background: #f8b195;
     color: #355c7d;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .container{
@@ -41,8 +41,13 @@ body{
     padding: 10px;
 }
 
-.navbar-fixed-bottom{
-    min-height: 12px;
-    font-size: 10px;
+footer{
+    font-family: "Baloo Tamma";
 
+    font-size: 10px;
+    width: 100%;
+    position: absolute;
+    height: 25px;
+    background: #355c7d ;
+    color: #f8b195;
 }
